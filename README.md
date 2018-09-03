@@ -29,3 +29,11 @@ git status
 git commit -m "added test.html file and updated readme with how to use GitHub"
 
 git push origin master
+
+
+# branch
+git branch my_branch
+git checkout my_branch
+
+git status
+git add README.md test.html
