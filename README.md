@@ -38,3 +38,25 @@ git checkout my_branch
 git status
 git add README.md test.html
 git commit -m "added nav and lorem, updated readme 3"
+git push origin my_branch
+
+git branch name_isTest-here
+
+# GitHub Basics - Merging Pull Requests
+
+Merging via command line
+If you do not want to use the merge button or an automatic merge cannot be performed, you can perform a manual merge on the command line.
+
+HTTPS Git Patch https://github.com/NJul/testing567.git
+
+Step 1: From your project repository, bring in the changes and test.
+
+git fetch origin
+git checkout -b my_branch origin/my_branch
+git merge master
+
+Step 2: Merge the changes and update on GitHub.
+
+git checkout master
+git merge --no-ff my_branch
+git push origin master
