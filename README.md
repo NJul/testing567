@@ -37,3 +37,4 @@ git checkout my_branch
 
 git status
 git add README.md test.html
+git commit -m "added nav and lorem, updated readme 3"
