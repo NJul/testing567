@@ -9,7 +9,24 @@
 </head>
 
 <body>
-  <h1>Test</h1>
+  <h1>Question 1</h1>
+
+  I was just trying to commit changes to the Git master.
+  From what I have read, it seems that the idea is to delete the lock file.
+  The message says:
+
+  make sure no other Git processes are running and remove the file manually
+
+  Perhaps someone knows, which file to remove and how to remove?
+
+  <h2>Answer 1</h2>
+  Removing the index.lock file like Schwern stated will solve this problem.
+
+  You can remove it by running <strong>rm -f ./.git/index.lock</strong>
+
+  The rm command is used to remove (delete) files and directories.
+
+  The -f stands for force which tells your computer to remove the files without prompting for confirmation.
 </body>
 
 </html>
