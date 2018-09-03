@@ -21,4 +21,11 @@ ls
 git status
 
 git add .
-git add test.html
+git add test.html README.md
+
+git status
+# files green, not red
+
+git commit -m "added test.html file and updated readme with how to use GitHub"
+
+git push origin master
