@@ -60,3 +60,6 @@ Step 2: Merge the changes and update on GitHub.
 git checkout master
 git merge --no-ff my_branch
 git push origin master
+
+# Delete branch
+git branch my_branch -D
