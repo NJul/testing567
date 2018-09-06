@@ -72,3 +72,10 @@ git push origin master
 
 # Delete branch
 git branch my_branch -D
+
+# git pull
+### Получение новых данных с удаленного сервера GitHub
+git pull
+
+# Команда показывает все ветки, которые имеются в этом проекте, звездочка обозначает ветку, которая выбрана для работы сейчас
+git branch
