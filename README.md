@@ -70,6 +70,9 @@ git merge --no-ff my_branch
 
 git push origin master
 
+# создание и переход на созданную ветку одной командой
+git checkout -b test
+
 # Delete branch
 git branch my_branch -D
 
@@ -79,3 +82,6 @@ git pull
 
 # Команда показывает все ветки, которые имеются в этом проекте, звездочка обозначает ветку, которая выбрана для работы сейчас
 git branch
+
+# view the history of files
+git log
