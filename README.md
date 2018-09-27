@@ -1,6 +1,32 @@
 # testing567
 Testing github repo
 
+## Что нужно, чтобы добавить свои правки в этот репозиторий.
+## 1. Зарегистрироваться на https://github.com
+## 2. Установить на свой компьютер git, https://git-scm.com/
+## 3. Перейти по ссылке: https://github.com/NJul/testing567
+## 4. Нажать на кнопку     Clone or download (Clone with HTTPS) скопировать ссылку https://github.com/NJul/testing567.git
+## 5. На своем компьютере в терминале, командной строке, переходите в папку со своими проектами, domains.
+## 6. Склонировать репозиторий себе на компьютер, скопировав в свой терминал строку ниже и нажав Enter :
+git clone https://github.com/NJul/testing567.git
+## 7. Открываете папку testing567 в своем редакторе кода, IDE. Заходите в склонированную папку в своем терминале, командной строке. Создаете свою ветку для редактирования кода (git branch my_branch_your_name). Выбираете и переходите на нее (git branch my_branch_your_name).
+
+git branch my_branch_your_name
+
+git checkout my_branch_your_name
+
+## 8. Вносите правки в файлы, добавляете свои новые файлы.
+## 9. Дальше набираете построчно команды в своем терминале, нажимая в конце клавишу Enter.
+
+git add .
+
+git commit -m "какие правки на сайте вы сделали, edit README.md"
+
+git push origin my_branch_your_name
+
+
+
+
 ## перейти на одну папку выше в терминале
 cd ..
 
@@ -25,7 +51,7 @@ git add test.html README.md
 
 git status
 
-### files green, not red
+  ### files green, not red
 
 git commit -m "added test.html file and updated readme with how to use GitHub"
 
