@@ -20,6 +20,7 @@ ls
 git status
 
 git add .
+
 git add test.html README.md
 
 git status
@@ -32,15 +33,21 @@ git push origin master
 
 
 # branch
+
 git branch my_branch
+
 git checkout my_branch
 
 git status
+
 git add README.md test.html
+
 git commit -m "added nav and lorem, updated readme 3"
+
 git push origin my_branch
 
 git branch name_isTest-here
+
 
 # GitHub Basics - Merging Pull Requests
 
