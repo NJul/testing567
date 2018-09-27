@@ -24,6 +24,10 @@ git commit -m "какие правки на сайте вы сделали, edit
 
 git push origin my_branch_your_name
 
+## 10 Переходите на Github. https://github.com/NJul/testing567/tree/master
+## В выпадающем меню Branch: master > выбираете свое имя ветки.
+## Нажимаете на кнопку рядом New pull request . Create pull request . Все.
+
 
 
 
