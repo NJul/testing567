@@ -1,39 +1,3 @@
-# Как залить в чужой репозиторий на GIthub?
-
-```sh
-1. Копируете себе локально репозиторий.
-git clone url [folder]
-cd [folder]
-```
-
-2. Создаете ветку [branch_name]
-git checkout -b [branch_name]
-
-3. Делайте изменения. 
-
-4. Делаете один коммит или несколько.
-git add . (если создавали новые файлы)
-git commit -m "Added beautiful fixes"
-
-5. Создаете удаленную ветку.
-git push --set-upstream origin [branch_name]
-В дальнейшем когда удаленная ветка создана то просто 
-git push.
-
-6. Создаете в интерфейсе github pull-request. Из вашей ветки в master.
-8536993405.png
-
-7. Автор или вы сами вливаете (merge) / отклоняете (decline) pull-request. 
-На этом этапе можно добавить комментарии или замечания к коду, что-то исправить. 
-
-8.Когда пул-реквест влили, вы локально переключаетесь в master и забираете все изменения
-git checkout master
-git pull
-
-Если еще нужно что-то сделать повторяете шаги начиная со 2.
-
-
-
 # Basic Git Commands
 
 ### Creating a repository online for the <b>1st time</b>!
