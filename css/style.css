@@ -1,17 +1,32 @@
+* {
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialised;
+}
+
+body {
+	background-color: #313944;
+	padding: 5em 14em;
+}
+
+/* menu formatting by Volodimir Saulyak */
+
 .wrapper {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .top-nav {
 	text-align: center;
 	position: relative;
 }
+
 .top-nav li {
 	display: inline-block;
 	padding: 10px;
 	margin: 4px;
 }
+
 .top-nav li a {
 	font-size: 20px;
 	text-transform: uppercase;
@@ -19,7 +34,103 @@
 	color: #777;
 	font-weight: bold;
 }
+
 .top-nav li:hover {
 	color: #444;
 	background-color: #eee;
+}
+
+/* next formatting */
+
+h1 {
+	color: #fff;
+	font-family: 'Cormorant';
+	font-size: 72px;
+	font-weight: 700;
+	line-height: 72px;
+	letter-spacing: -1px;
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+h1::after {
+	color: #1fcfcb;
+	display: block;
+	content: '. . .';
+	font-size: 26px;
+	line-height: 24px;
+	height: 24px;
+	margin: 48px auto;
+}
+
+h2 {
+	color: #fff;
+	font-family: 'Cormorant';
+	font-size: 54px;
+	font-weight: 700;
+	line-height: 72px;
+	letter-spacing: -1px;
+	margin-bottom: 48px;
+	text-align: center;
+}
+
+h3 {
+	color: #777;
+	font-family: 'Lato';
+	font-size: 20px;
+	line-height: 72px;
+	margin-bottom: 48px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+p {
+	color: #bbc8d8;
+	font-family: 'Lato';
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 36px;
+	margin-bottom: 36px;
+}
+
+a {
+	color: #1fcfcb;
+	font-family: 'Lato';
+}
+
+a:hover {
+	color: #fff;
+}
+
+#back-to-top {
+	position: fixed;
+	bottom: 3em;
+	right: 3em;
+	background-color: rgba(255, 255, 255, .9);
+	color: #313943;
+	border: none;
+	border-radius: 5px;
+	padding: 1em;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: 700;
+	box-shadow: 0 0 2em 0 rgba(0, 0, 0, .25);
+	transition: all .3s ease-in-out;
+	display: inline-block;
+	opacity: 0;
+	text-decoration: none;
+	font-size: .75em;
+}
+
+#back-to-top:hover {
+	background-color: #fff;
+	padding: 1em 3em;
+}
+
+#back-to-top.visible {
+	opacity: 1;
+}
+
+.right {
+	text-align: right;
 }
