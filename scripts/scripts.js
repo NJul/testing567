@@ -9,14 +9,13 @@ var btt = document.getElementById("back-to-top"),
   docElem = document.documentElement,
   offset = 100,
   scrollPos,
-  docHeight,
-  isFirefox = navigator.userAgent.toLowerCase().indexOf("firefox") > -1;
+  docHeight;
 
 // Calculate the document height
 docHeight = Math.max(body.scrollHeight, body.offsetHeight, docElem.clientHeight, docElem.scrollHeight, docElem.offsetHeight);
 
 if (docHeight != 'undefined') {
-  offset = docHeight / 4;
+  offset = docHeight / 5;
 }
 
 // Add scroll event listener
