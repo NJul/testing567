@@ -1,6 +1,7 @@
 # testing567
 `Testing github repo with Collaborators.`
 
+[https://njul.github.io/testing567/](https://njul.github.io/testing567/) 
 
 
       I faced the same error -
@@ -48,7 +49,7 @@ git push --set-upstream origin my_branch_your_name
 
 git push origin my_branch_your_name
 
-### 12. Переходите на Github. Создаете в интерфейсе Github pull-request. Из вашей ветки в master. Автор или вы сами вливаете (merge) / отклоняете (decline) pull-request. На этом этапе можно добавить комментарии или замечания к коду, что-то исправить. Когда пул-реквест влили, вы локально переключаетесь в master и забираете все изменения 
+### 12. Переходите на Github. Создаете в интерфейсе Github pull-request. Из вашей ветки в master. Автор или вы сами вливаете (merge) / отклоняете (decline) pull-request. На этом этапе можно добавить комментарии или замечания к коду, что-то исправить. Когда пул-реквест влили, вы локально переключаетесь в master и забираете все изменения к себе с сайта GitHub. 
 
 git checkout master
 
@@ -58,19 +59,19 @@ git pull
 
 ---
 
-## перейти на одну папку выше в терминале
+## Перейти на одну папку выше в терминале
 cd ..
 
 
-## перейти на одну папку ниже в терминале
+## Перейти на одну папку ниже в терминале
 cd название-папки
 
 
-## очистить терминал
+## Очистить терминал
 clear 
 
 
-## склонировать репозиторий себе на комп с созданного первым удаленного репозитория
+## Склонировать репозиторий себе на комп с созданного первым удаленного репозитория
 git clone https:...
 
 
@@ -139,7 +140,7 @@ git branch name_isTest-here
 
     git push origin master
 
-## создание и переход на созданную ветку одной командой
+## Создание и переход на созданную ветку одной командой
 
 git checkout -b test
 
@@ -155,7 +156,7 @@ git pull
 
 git branch
 
-## view the history of files
+## View the history of files
 
 git log
 
