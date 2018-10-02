@@ -1,7 +1,7 @@
 # testing567
 `Testing github repo with Collaborators.`
 
-      [https://njul.github.io/testing567/](https://njul.github.io/testing567/) 
+[https://njul.github.io/testing567/](https://njul.github.io/testing567/) 
 
 
       I faced the same error -
