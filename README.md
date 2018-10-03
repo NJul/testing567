@@ -177,6 +177,10 @@ git push -f
 
 git commit -a --amend
 
+## To change the commit message
+
+git commit --amend -m “New commit message”
+
 ## Если вы сделали commit в git, но поняли, что он достаточно плох, то можно сделать и так: Эта команда отменит последний коммит (но не изменения, которые вы внесли, они сохранятся).
 
 git reset --soft HEAD^
