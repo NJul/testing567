@@ -1,16 +1,55 @@
 * {
 	box-sizing: border-box;
-	-webkit-font-smoothing: antialised;
 }
 
 body {
 	background-color: #313944;
-	padding: 5em 14em;
+	padding: 5em 18%;
+}
+
+/* formatting menu 2 */
+
+.menu {
+	width: 100%;
+	height: 40px;
+	padding: 0;
+}
+
+.menu-item {
+	width: 20%;
+	height: 100%;
+	list-style-type: none;
+	text-transform: uppercase;
+	text-align: center;
+	float: left;
+}
+
+.menu-item a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #777;
+	font-family: 'Lato';
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 40px;
+}
+
+.menu-item a:hover {
+	background-color: #eee;
+	color: #444;
+}
+
+.menu:after {
+	content: "";
+	display: block;
+	clear: both;
 }
 
 /* menu formatting by Volodimir Saulyak */
 
-.wrapper {
+/* .wrapper {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -38,7 +77,7 @@ body {
 .top-nav li:hover {
 	color: #444;
 	background-color: #eee;
-}
+} */
 
 /* next formatting */
 
@@ -154,3 +193,38 @@ a:hover {
 }
 
 /* end sticky element */
+
+@media screen and (max-width: 960px) {
+	body {
+		padding: 2em 10%;
+	}
+
+	.menu-item {
+		float: none;
+		width: 100%;
+	}
+
+	.PhilomelCottage {
+		margin-top: 200px;
+	}
+
+	h3 {
+		margin: 2em 0 1em 0;
+	}
+}
+
+
+@media screen and (max-width: 300px) {
+	body {
+		padding: 1em 2%;
+	}
+
+	.PhilomelCottage {
+		font-size: 4em;
+	}
+
+	h3 {
+		margin: 1em 0 1em 0;
+	}
+
+}
