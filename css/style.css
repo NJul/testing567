@@ -229,6 +229,14 @@ a:hover {
   }
 }
 
+@media screen and (max-width: 500px) {
+  .left_img {   
+    max-width: 100%;
+    height: auto;
+    float: none;      
+  }
+}
+
 @media screen and (max-width: 300px) {
   body {
     padding: 1em 2%;
