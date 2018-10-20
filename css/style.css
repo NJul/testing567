@@ -40,7 +40,7 @@ body {
 
 .menu-item a:hover {
   background-color: #eee;
-  color: #3B8189;  
+  color: #3B8189;
 }
 
 .menu:after {
@@ -123,6 +123,10 @@ h3 {
   margin: 3em 0 1em 0;
   text-align: center;
   text-transform: uppercase;
+}
+
+h3:target {
+  border-bottom: 1px solid #3B8189;
 }
 
 p {
@@ -214,26 +218,23 @@ a:hover {
   body {
     padding: 2em 10%;
   }
-
   .menu-item {
     float: none;
     width: 100%;
   }
-
   .PhilomelCottage {
     margin-top: 200px;
   }
-
   h3 {
     margin: 2em 0 1em 0;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .left_img {   
+  .left_img {
     max-width: 100%;
     height: auto;
-    float: none;      
+    float: none;
   }
 }
 
@@ -241,11 +242,9 @@ a:hover {
   body {
     padding: 1em 2%;
   }
-
   .PhilomelCottage {
     font-size: 4em;
   }
-
   h3 {
     margin: 1em 0 1em 0;
   }
